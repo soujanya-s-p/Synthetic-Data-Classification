@@ -28,6 +28,15 @@ Run the main script to generate synthetic data and visualize results:
 ```sh
 python synthetic_data.py
 ```
+## Synthetic Data Generation Using VAEs
+
+We now support **Variational Autoencoders (VAEs)** for generating synthetic data. VAEs help create high-quality synthetic samples, especially for structured data.
+
+### How to Use VAEs
+1. Install dependencies:
+   ```bash
+   pip install torch torchvision numpy matplotlib seaborn
+
 
 ## 📈 Methods Implemented
 - **Before vs. After Synthetic Sampling** visualizations
